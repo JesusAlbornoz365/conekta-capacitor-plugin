@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
-		2F98D68224C9AAE500613A4C /* ConektaCapacitorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* ConektaCapacitorPlugin.swift */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFF97201F53D600D50D53 /* ConektaCapacitorPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* ConektaCapacitorPluginTests.swift */; };
-		50ADFF99201F53D600D50D53 /* ConektaCapacitorPluginPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* ConektaCapacitorPluginPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50ADFF99201F53D600D50D53 /* ConektaCapacitorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* ConektaCapacitorPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
-		50ADFFA82020EE4F00D50D53 /* ConektaCapacitorPluginPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPluginPlugin.m */; };
-		50E1A94820377CB70090CE1A /* ConektaCapacitorPluginPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* ConektaCapacitorPluginPlugin.swift */; };
+		50ADFFA82020EE4F00D50D53 /* ConektaCapacitorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPlugin.m */; };
+		50E1A94820377CB70090CE1A /* ConektaCapacitorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* ConektaCapacitorPlugin.swift */; };
+		A5A63E6E291E1C880049BEFE /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A63E66291E1C880049BEFE /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A63E6F291E1C880049BEFE /* Conekta.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A63E67291E1C880049BEFE /* Conekta.m */; };
+		A5A63E70291E1C880049BEFE /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A63E68291E1C880049BEFE /* Token.m */; };
+		A5A63E71291E1C880049BEFE /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A63E69291E1C880049BEFE /* Card.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A63E72291E1C880049BEFE /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A63E6A291E1C880049BEFE /* Card.m */; };
+		A5A63E73291E1C890049BEFE /* Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A63E6B291E1C880049BEFE /* Connection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A63E74291E1C890049BEFE /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A63E6C291E1C880049BEFE /* Connection.m */; };
+		A5A63E75291E1C890049BEFE /* Conekta.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A63E6D291E1C880049BEFE /* Conekta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A63E77291EA4F70049BEFE /* Bridge-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A63E76291EA4F70049BEFE /* Bridge-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,20 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F98D68124C9AAE400613A4C /* ConektaCapacitorPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConektaCapacitorPlugin.swift; sourceTree = "<group>"; };
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFF8B201F53D600D50D53 /* ConektaCapacitorPluginPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConektaCapacitorPluginPlugin.h; sourceTree = "<group>"; };
+		50ADFF8B201F53D600D50D53 /* ConektaCapacitorPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConektaCapacitorPlugin.h; sourceTree = "<group>"; };
 		50ADFF8C201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ADFF91201F53D600D50D53 /* PluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF96201F53D600D50D53 /* ConektaCapacitorPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConektaCapacitorPluginTests.swift; sourceTree = "<group>"; };
 		50ADFF98201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ADFFA52020D75100D50D53 /* Capacitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Capacitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPluginPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConektaCapacitorPluginPlugin.m; sourceTree = "<group>"; };
-		50E1A94720377CB70090CE1A /* ConektaCapacitorPluginPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConektaCapacitorPluginPlugin.swift; sourceTree = "<group>"; };
+		50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConektaCapacitorPlugin.m; sourceTree = "<group>"; };
+		50E1A94720377CB70090CE1A /* ConektaCapacitorPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConektaCapacitorPlugin.swift; sourceTree = "<group>"; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A63E66291E1C880049BEFE /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Token.h; path = Plugin/Token.h; sourceTree = SOURCE_ROOT; };
+		A5A63E67291E1C880049BEFE /* Conekta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conekta.m; path = Plugin/Conekta.m; sourceTree = SOURCE_ROOT; };
+		A5A63E68291E1C880049BEFE /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Token.m; path = Plugin/Token.m; sourceTree = SOURCE_ROOT; };
+		A5A63E69291E1C880049BEFE /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Plugin/Card.h; sourceTree = SOURCE_ROOT; };
+		A5A63E6A291E1C880049BEFE /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Plugin/Card.m; sourceTree = SOURCE_ROOT; };
+		A5A63E6B291E1C880049BEFE /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Plugin/Connection.h; sourceTree = SOURCE_ROOT; };
+		A5A63E6C291E1C880049BEFE /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Plugin/Connection.m; sourceTree = SOURCE_ROOT; };
+		A5A63E6D291E1C880049BEFE /* Conekta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conekta.h; path = Plugin/Conekta.h; sourceTree = SOURCE_ROOT; };
+		A5A63E76291EA4F70049BEFE /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +88,7 @@
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
+				A5A63E65291E1BF20049BEFE /* Conekta */,
 				50ADFF8A201F53D600D50D53 /* Plugin */,
 				50ADFF95201F53D600D50D53 /* PluginTests */,
 				50ADFF89201F53D600D50D53 /* Products */,
@@ -92,10 +109,10 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
-				50E1A94720377CB70090CE1A /* ConektaCapacitorPluginPlugin.swift */,
-				2F98D68124C9AAE400613A4C /* ConektaCapacitorPlugin.swift */,
-				50ADFF8B201F53D600D50D53 /* ConektaCapacitorPluginPlugin.h */,
-				50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPluginPlugin.m */,
+				50E1A94720377CB70090CE1A /* ConektaCapacitorPlugin.swift */,
+				50ADFF8B201F53D600D50D53 /* ConektaCapacitorPlugin.h */,
+				50ADFFA72020EE4F00D50D53 /* ConektaCapacitorPlugin.m */,
+				A5A63E76291EA4F70049BEFE /* Bridge-Header.h */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
 			);
 			path = Plugin;
@@ -121,6 +138,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A5A63E65291E1BF20049BEFE /* Conekta */ = {
+			isa = PBXGroup;
+			children = (
+				A5A63E69291E1C880049BEFE /* Card.h */,
+				A5A63E6A291E1C880049BEFE /* Card.m */,
+				A5A63E6D291E1C880049BEFE /* Conekta.h */,
+				A5A63E67291E1C880049BEFE /* Conekta.m */,
+				A5A63E6B291E1C880049BEFE /* Connection.h */,
+				A5A63E6C291E1C880049BEFE /* Connection.m */,
+				A5A63E66291E1C880049BEFE /* Token.h */,
+				A5A63E68291E1C880049BEFE /* Token.m */,
+			);
+			path = Conekta;
+			sourceTree = "<group>";
+		};
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +170,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ADFF99201F53D600D50D53 /* ConektaCapacitorPluginPlugin.h in Headers */,
+				A5A63E6E291E1C880049BEFE /* Token.h in Headers */,
+				A5A63E71291E1C880049BEFE /* Card.h in Headers */,
+				A5A63E77291EA4F70049BEFE /* Bridge-Header.h in Headers */,
+				A5A63E75291E1C890049BEFE /* Conekta.h in Headers */,
+				A5A63E73291E1C890049BEFE /* Connection.h in Headers */,
+				50ADFF99201F53D600D50D53 /* ConektaCapacitorPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E1A94820377CB70090CE1A /* ConektaCapacitorPluginPlugin.swift in Sources */,
-				2F98D68224C9AAE500613A4C /* ConektaCapacitorPlugin.swift in Sources */,
-				50ADFFA82020EE4F00D50D53 /* ConektaCapacitorPluginPlugin.m in Sources */,
+				50E1A94820377CB70090CE1A /* ConektaCapacitorPlugin.swift in Sources */,
+				A5A63E74291E1C890049BEFE /* Connection.m in Sources */,
+				A5A63E70291E1C880049BEFE /* Token.m in Sources */,
+				A5A63E6F291E1C880049BEFE /* Conekta.m in Sources */,
+				50ADFFA82020EE4F00D50D53 /* ConektaCapacitorPlugin.m in Sources */,
+				A5A63E72291E1C880049BEFE /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,11 +512,19 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"$(PROJECT_DIR)/Conekta",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Plugin/Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,11 +547,19 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"$(PROJECT_DIR)/Conekta",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Plugin/Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

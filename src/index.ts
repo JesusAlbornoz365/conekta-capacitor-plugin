@@ -1,8 +1,8 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { ConektaCapacitorPluginPlugin } from './definitions';
+import type { ConektaCapacitorPlugin } from './definitions';
 
-const ConektaCapacitorPlugin = registerPlugin<ConektaCapacitorPluginPlugin>(
+const ConektaCapacitorPlugin = registerPlugin<ConektaCapacitorPlugin>(
   'ConektaCapacitorPlugin',
   {
     web: () => import('./web').then(m => new m.ConektaCapacitorPluginWeb()),
