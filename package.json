@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JesusAlbornoz/conekta-capacitor-plugin.git"
+    "url": "git+https://github.com/JesusAlbornoz365/conekta-capacitor-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/JesusAlbornoz/conekta-capacitor-plugin/issues"
+    "url": "https://github.com/JesusAlbornoz365/conekta-capacitor-plugin/issues"
   },
   "keywords": [
     "capacitor",
