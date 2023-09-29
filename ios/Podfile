@@ -9,6 +9,7 @@ end
 
 target 'Plugin' do
   capacitor_pods
+  pod 'Conekta', :path => '../node_modules/conekta-capacitor-plugin/ios/Conekta'
 end
 
 target 'PluginTests' do

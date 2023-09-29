@@ -2,7 +2,7 @@ import { registerPlugin } from '@capacitor/core';
 
 import type { ConektaCapacitorPlugin } from './definitions';
 
-const ConektaCapacitorPlugin = registerPlugin<ConektaCapacitorPlugin>(
+const ConektaCapacitor = registerPlugin<ConektaCapacitorPlugin>(
   'ConektaCapacitorPlugin',
   {
     web: () => import('./web').then(m => new m.ConektaCapacitorPluginWeb()),
@@ -10,4 +10,4 @@ const ConektaCapacitorPlugin = registerPlugin<ConektaCapacitorPlugin>(
 );
 
 export * from './definitions';
-export { ConektaCapacitorPlugin };
+export { ConektaCapacitor };
